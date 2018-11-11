@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Word Guess Game</title>
+    <link rel="stylesheet" href="./assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="header rounded">
+            <h1>GUESS THE NAMES OF COUNTRIES</h1>
+        </div>
+        <div class="row mt-5">
+            <div class="col-md-6 mb-5 text-center">
+                <p>Press any letter to start playing...</p>
+                <img src="./assets/images/globe.png" id="globe" alt="Globe">
+            </div>
+
+            <div class="col-md-6">
+                <p><span id="current-word" class="letters"></span></p>
+                <p>Guesses Remaining: <span id="guess-count"></span></p>
+                <p>Guessed Letters: <span id="wrong-guesses" class="letters"></span></p>
+                <p>WINS: <span id="win-count"></span></p>
+            </div>
+        </div>
+
+    </div>
+
+    <script src="./assets/javascript/game.js"></script>
+
+</body>
+
+</html>

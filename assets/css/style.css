@@ -1,0 +1,23 @@
+h1 {
+    font-family: fantasy;
+    text-align: center;
+    color: white;
+}
+
+p {
+    font-size: 20px;
+}
+
+#globe {
+    width: 150px;
+    height: auto;
+}
+
+.letters {
+	letter-spacing: .5em;
+}
+
+.header {
+    background: lightskyblue;
+    padding: 20px 20px;
+}
